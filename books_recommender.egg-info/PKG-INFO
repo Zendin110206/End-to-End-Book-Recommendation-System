@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: books_recommender
+Version: 0.0.1
+Summary: A small local package for ML based books recommendations
+Home-page: https://github.com/Zendin110206/End-to-End-Book-Recommendation-System
+Author: Muhammad Zaenal Abidin Abdurrahman
+Author-email: zaenal.abidin110206@gmail.com
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-python
+Dynamic: summary
+
+# End-to-End Books Recommender System Implementation using Collaborative Filtering
+
+# How to run?
+### STEPS
+
+Clone the repository 
+
+```bash
+https://github.com/Zendin110206/End-to-End-Book-Recommendation-System.git
+```
+
+### STEP 01 - Create a conda environment after opening the repository
+```bash
+conda create -n books python=3.7.10 -y
+```
+
+```bash
+conda activate books
+```
+
+### STEP 02 - Install the requirements
+```bash
+pip install -r requirements.txt
+```
