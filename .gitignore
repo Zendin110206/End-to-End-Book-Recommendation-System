@@ -1,0 +1,6 @@
+# Abaikan folder riwayat Jupyter
+.ipynb_checkpoints/
+
+# Abaikan file cache Python
+__pycache__/
+*.pycx
