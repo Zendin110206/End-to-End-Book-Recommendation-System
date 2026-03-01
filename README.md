@@ -1,4 +1,4 @@
-# HR Executive Command Center: Predictive Analytics & Intervention Platform
+# End-to-End Books Recommender System Implementation using Collaborative Filtering
 
 # How to run?
 ### STEPS
