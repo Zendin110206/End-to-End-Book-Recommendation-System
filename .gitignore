@@ -4,3 +4,7 @@
 # Abaikan file cache Python
 __pycache__/
 *.pycx
+
+# Abaikan file data mentah berukuran besar
+data/
+*.csv

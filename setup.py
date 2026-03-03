@@ -23,21 +23,3 @@ setup(
     python_requires=">=3.9",
     install_requires=LIST_OF_REQUIREMENTS
 )
-
-# Good to know for me : 
-
-# Kode bare minimum (paling dasar) buat ngeresmiin package secara lokal itu cuma segini doang:
-
-# Python
-# from setuptools import setup, find_packages
-
-# setup(
-#     name="books_recommender",
-#     packages=find_packages()
-# )
-
-# The reason is Standar Industri (Best Practice) and PEP 8 (Python Enhancement Proposal) menyarankan untuk selalu mengisi metadata yang lengkap pada file setup.py, seperti nama package, versi, penulis, deskripsi, dan lain-lain. 
-# Hal ini penting untuk memudahkan pengguna lain dalam memahami apa yang package tersebut lakukan, siapa pembuatnya, dan bagaimana cara menggunakannya. 
-# Selain itu, metadata yang lengkap juga membantu dalam proses distribusi dan instalasi package melalui PyPI (Python Package Index) atau platform distribusi lainnya. 
-
-# Jadi, meskipun kode minimal bisa saja bekerja, mengikuti standar industri dan PEP 8 akan membuat package kamu lebih profesional dan mudah digunakan oleh orang lain.

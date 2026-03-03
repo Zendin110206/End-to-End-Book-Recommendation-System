@@ -1,5 +1,5 @@
-scikit-learn 
-pandas 
+scikit-learn
+pandas
 numpy
 scipy
 pyyaml
