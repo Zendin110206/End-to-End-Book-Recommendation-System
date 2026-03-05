@@ -1,0 +1,12 @@
+[2026-03-06 06:19:17,332] root - INFO - Memulai proses pelatihan model rekomendasi buku...
+[2026-03-06 06:19:17,332] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-03-06 06:19:17,334] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-03-06 06:19:17,335] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-06 06:19:17,336] root - INFO - Downloading data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-06 06:19:33,246] root - INFO - Downloaded data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-06 06:19:33,751] root - INFO - Extracting zip file: artifacts\dataset\raw_data\book_data.zip into dir: artifacts\dataset\ingested_data
+[2026-03-06 06:19:33,751] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-03-06 06:19:33,751] root - INFO - ====================Data Validation log started.==================== 
+[2026-03-06 06:19:33,752] root - INFO - Kesalahan terjadi selama pelatihan model: Error occurred python script name [C:\Users\MSI KATANA 15\Machine Learning Hands On Projects 2026\09_End_to_End_Book_Recommendation_System\books_recommender\pipeline\training_pipeline.py] line number [15] error message [Error occurred python script name [C:\Users\MSI KATANA 15\Machine Learning Hands On Projects 2026\09_End_to_End_Book_Recommendation_System\books_recommender\components\stage_01_data_validation.py] line number [80] error message [Error occurred python script name [C:\Users\MSI KATANA 15\Machine Learning Hands On Projects 2026\09_End_to_End_Book_Recommendation_System\books_recommender\components\stage_01_data_validation.py] line number [24] error message [read_csv() got an unexpected keyword argument 'error_bad_lines'].].].
