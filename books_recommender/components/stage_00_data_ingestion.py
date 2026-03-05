@@ -9,14 +9,15 @@ from books_recommender.config.configuration import AppConfiguration
 
 class DataIngestion:
 
-    def __init__(self, app_config = AppConfiguration()):
+    def __init__(self, app_config=None):
         """
-        DataIngestion Intialization
-        data_ingestion_config: DataIngestionConfig 
+        DataIngestion Initialization
         """
         try:
             logging.info(f"{'='*20}Data Ingestion log started.{'='*20} ")
-            self.data_ingestion_config= app_config.get_data_ingestion_config()
+            if app_config is None:
+                app_config = AppConfiguration()
+            self.data_ingestion_config = app_config.get_data_ingestion_config()
         except Exception as e:
             raise AppException(e, sys) from e
 

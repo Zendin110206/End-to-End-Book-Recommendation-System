@@ -1,0 +1,10 @@
+[2026-03-05 08:40:21,144] root - INFO - Memulai proses pelatihan model rekomendasi buku...
+[2026-03-05 08:40:21,144] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-03-05 08:40:21,148] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-03-05 08:40:21,150] root - INFO - Downloading data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-05 08:40:32,285] root - INFO - Downloaded data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-05 08:40:33,126] root - INFO - Extracting zip file: artifacts\dataset\raw_data\book_data.zip into dir: artifacts\dataset\ingested_data
+[2026-03-05 08:40:33,128] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-03-05 08:40:33,128] root - INFO - Proses pelatihan model selesai.
