@@ -1,0 +1,23 @@
+[2026-03-06 10:04:41,308] root - INFO - Memulai proses pelatihan model rekomendasi buku...
+[2026-03-06 10:04:41,308] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-03-06 10:04:41,314] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-03-06 10:04:41,318] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-06 10:04:41,322] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2026-03-06 10:04:41,323] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-06 10:04:41,325] root - INFO - Downloading data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-06 10:05:39,799] root - INFO - Downloaded data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-06 10:05:40,577] root - INFO - Extracting zip file: artifacts\dataset\raw_data\book_data.zip into dir: artifacts\dataset\ingested_data
+[2026-03-06 10:05:40,577] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-03-06 10:05:40,577] root - INFO - ====================Data Validation log started.==================== 
+[2026-03-06 10:05:43,508] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2026-03-06 10:05:43,508] root - INFO -  Shape of books data file: (271360, 8)
+[2026-03-06 10:05:45,144] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2026-03-06 10:05:45,373] root - INFO - Saved cleaned data to artifacts\dataset\clean_data\clean_data.csv
+[2026-03-06 10:05:45,393] root - INFO - Saved final_rating serialization object to artifacts\serialized_object
+[2026-03-06 10:05:45,448] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2026-03-06 10:05:45,449] root - INFO - Starting data transformation process...
+[2026-03-06 10:05:45,449] root - INFO - Kesalahan terjadi selama pelatihan model: Error occurred python script name [C:\Users\MSI KATANA 15\Machine Learning Hands On Projects 2026\09_End_to_End_Book_Recommendation_System\books_recommender\pipeline\training_pipeline.py] line number [19] error message [Error occurred python script name [C:\Users\MSI KATANA 15\Machine Learning Hands On Projects 2026\09_End_to_End_Book_Recommendation_System\books_recommender\components\stage_02_data_transformation.py] line number [55] error message [Error occurred python script name [C:\Users\MSI KATANA 15\Machine Learning Hands On Projects 2026\09_End_to_End_Book_Recommendation_System\books_recommender\components\stage_02_data_transformation.py] line number [24] error message ['DataValidationConfig' object has no attribute 'clean_data_file_path'].].].
