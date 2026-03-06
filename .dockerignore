@@ -1,0 +1,22 @@
+# This comment created by me to ignore the .dockerignore file in the docker build context. This file is used to specify which files and directories should be ignored when building a Docker image. By ignoring certain files and directories, we can reduce the size of the Docker image and improve the build time.
+
+# Mengabaikan folder environment (jangan sampai masuk docker!)
+book_env/
+env/
+venv/
+.conda/
+
+# Mengabaikan cache python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mengabaikan folder git dan settingan editor
+.git/
+.vscode/
+.idea/
+
+# Mengabaikan folder eksperimen notebook (karena nggak dipakai di website)
+notebooks/
+.ipynb_checkpoints/
