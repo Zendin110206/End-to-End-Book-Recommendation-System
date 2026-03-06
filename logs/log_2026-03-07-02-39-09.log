@@ -1,0 +1,66 @@
+[2026-03-07 02:39:24,268] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_object\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_object\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_object\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2026-03-07 02:39:28,631] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_object\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_object\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_object\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2026-03-07 02:39:28,635] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-03-07 02:39:28,647] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-03-07 02:39:28,655] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-07 02:39:28,660] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2026-03-07 02:39:28,661] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-07 02:39:28,667] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2026-03-07 02:39:28,668] root - INFO - Downloading data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-07 02:39:29,708] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_object\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_object\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_object\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2026-03-07 02:39:29,709] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-03-07 02:39:29,711] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-03-07 02:39:29,713] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-07 02:39:29,715] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2026-03-07 02:39:29,715] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-07 02:39:29,717] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2026-03-07 02:39:29,719] root - INFO - Downloading data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-07 02:39:31,523] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_object\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_object\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_object\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2026-03-07 02:39:31,529] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-03-07 02:39:31,543] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-03-07 02:39:31,554] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-07 02:39:31,560] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2026-03-07 02:39:31,561] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-07 02:39:31,567] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2026-03-07 02:39:31,568] root - INFO - Downloading data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-07 02:39:47,015] root - INFO - Downloaded data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-07 02:39:47,543] root - INFO - Downloaded data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-07 02:39:47,722] root - INFO - Extracting zip file: artifacts\dataset\raw_data\book_data.zip into dir: artifacts\dataset\ingested_data
+[2026-03-07 02:39:47,722] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-03-07 02:39:47,722] root - INFO - ====================Data Validation log started.==================== 
+[2026-03-07 02:39:48,705] root - INFO - Downloaded data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-07 02:39:48,712] root - INFO - Extracting zip file: artifacts\dataset\raw_data\book_data.zip into dir: artifacts\dataset\ingested_data
+[2026-03-07 02:39:48,713] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-03-07 02:39:48,713] root - INFO - ====================Data Validation log started.==================== 
+[2026-03-07 02:39:49,545] root - INFO - Extracting zip file: artifacts\dataset\raw_data\book_data.zip into dir: artifacts\dataset\ingested_data
+[2026-03-07 02:39:49,546] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-03-07 02:39:49,546] root - INFO - ====================Data Validation log started.==================== 
+[2026-03-07 02:39:52,945] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2026-03-07 02:39:52,946] root - INFO -  Shape of books data file: (271360, 8)
+[2026-03-07 02:39:54,744] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2026-03-07 02:39:55,163] root - INFO - Saved cleaned data to artifacts\dataset\clean_data\clean_data.csv
+[2026-03-07 02:39:55,195] root - INFO - Saved final_rating serialization object to artifacts\serialized_object
+[2026-03-07 02:39:55,260] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2026-03-07 02:39:55,261] root - INFO - Starting data transformation process...
+[2026-03-07 02:39:55,436] root - INFO -  Shape of the pivot table: (742, 888)
+[2026-03-07 02:39:55,443] root - INFO - Data transformation completed successfully.
+[2026-03-07 02:39:55,452] root - INFO - Transformed data saved at: artifacts\dataset\transformed_data\transformed_data.pkl
+[2026-03-07 02:39:55,453] root - INFO - Saved book_names serialization object to artifacts\serialized_object
+[2026-03-07 02:39:55,460] root - INFO - Saved book_pivot serialization object to artifacts\serialized_object
+[2026-03-07 02:39:55,461] root - INFO - Data transformation process completed.
+[2026-03-07 02:39:55,461] root - INFO - ====================Model Trainer log started.==================== 
+[2026-03-07 02:39:55,487] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2026-03-07 02:39:55,487] root - INFO - ====================Model Trainer log completed.==================== 
+
+
+[2026-03-07 02:39:55,488] root - INFO - Recommended successfully!
+[2026-03-07 02:40:05,228] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_object\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_object\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_object\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2026-03-07 02:40:06,969] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_object\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_object\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_object\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
