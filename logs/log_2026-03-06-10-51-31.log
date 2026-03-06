@@ -1,0 +1,35 @@
+[2026-03-06 10:51:34,643] root - INFO - Memulai proses pelatihan model rekomendasi buku...
+[2026-03-06 10:51:34,643] root - INFO - ====================Data Ingestion log started.==================== 
+[2026-03-06 10:51:34,646] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2026-03-06 10:51:34,647] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-06 10:51:34,649] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2026-03-06 10:51:34,650] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', serialized_objects_dir='artifacts\\serialized_object', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv')
+[2026-03-06 10:51:34,651] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2026-03-06 10:51:34,651] root - INFO - Downloading data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-06 10:51:54,549] root - INFO - Downloaded data from https://github.com/Zendin110206/End-to-End-Book-Recommendation-System/raw/main/book_data.zip into file artifacts\dataset\raw_data\book_data.zip
+[2026-03-06 10:51:55,282] root - INFO - Extracting zip file: artifacts\dataset\raw_data\book_data.zip into dir: artifacts\dataset\ingested_data
+[2026-03-06 10:51:55,282] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2026-03-06 10:51:55,282] root - INFO - ====================Data Validation log started.==================== 
+[2026-03-06 10:51:57,818] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2026-03-06 10:51:57,818] root - INFO -  Shape of books data file: (271360, 8)
+[2026-03-06 10:51:59,006] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2026-03-06 10:51:59,231] root - INFO - Saved cleaned data to artifacts\dataset\clean_data\clean_data.csv
+[2026-03-06 10:51:59,250] root - INFO - Saved final_rating serialization object to artifacts\serialized_object
+[2026-03-06 10:51:59,313] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2026-03-06 10:51:59,313] root - INFO - Starting data transformation process...
+[2026-03-06 10:51:59,557] root - INFO -  Shape of the pivot table: (742, 888)
+[2026-03-06 10:51:59,563] root - INFO - Data transformation completed successfully.
+[2026-03-06 10:51:59,571] root - INFO - Transformed data saved at: artifacts\dataset\transformed_data\transformed_data.pkl
+[2026-03-06 10:51:59,572] root - INFO - Saved book_names serialization object to artifacts\serialized_object
+[2026-03-06 10:51:59,577] root - INFO - Saved book_pivot serialization object to artifacts\serialized_object
+[2026-03-06 10:51:59,578] root - INFO - Data transformation process completed.
+[2026-03-06 10:51:59,578] root - INFO - ====================Model Trainer log started.==================== 
+[2026-03-06 10:51:59,605] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2026-03-06 10:51:59,606] root - INFO - ====================Model Trainer log completed.==================== 
+
+
+[2026-03-06 10:51:59,606] root - INFO - Proses pelatihan model selesai.
