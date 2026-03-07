@@ -30,7 +30,6 @@ The presentation layer bypasses the native styling limitations of the Streamlit 
 The system relies on a decoupled, modular architecture ensuring that every phase of the machine learning lifecycle is independently testable, maintainable, and scalable.
 
 ![System Architecture Diagram](assets/architecture_flow_diagram.png)
-*(Placeholder: Insert your high-level system architecture or data flow diagram here)*
 
 ### Module Breakdown
 
